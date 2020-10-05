@@ -1,59 +1,23 @@
 ﻿num,section,subsection,text
-1,Project Intention,Project Sponsor,"fsd;jasdf;lkadjsf"
-2,Project Intention,Stakeholders*,
-3,Project Intention,Project Description*,
-4,Project Intention,Audience*,
-5,Project Intention,Impact*,
-6,Project Intention,Project Term Start*,
-7,Project Intention,Project Term End*,
-8,Project Intention,Time Constraints,
-9,Project Intention,Major Project Milestones*,
-10,Project Intention,Project Copyright & Licensing*,
-11,Project Intention,Digital Project Active Development Storage*,
-1,Assessment & Evaluation,Deliverables*,
-2,Assessment & Evaluation,Objectives*,
-3,Assessment & Evaluation,Digital Platform User Assessment*,
-4,Assessment & Evaluation,Classroom Learning Outcomes,
-5,Assessment & Evaluation,Classroom Learning Assessment,
-6,Assessment & Evaluation,Research Outcomes,
-7,Assessment & Evaluation,Research Assessment,
-8,Assessment & Evaluation,Digital Project Reuse,
-1,Team Members,Project Team Members*,
-2,Team Members,Project Team Constraints,
-1,Monetary Resources,Budget*,
-2,Monetary Resources,Budget Constraints,
-3,Monetary Resources,External Grant Funding,
-1,Communications,Team Communications,
-2,Communications,Sponsor Communications,
-3,Communications,Project Completion Communication,
-1,Technology Platform & Access,Digital Platform*,
-2,Technology Platform & Access,Digital Platform Access Permissions Granting*,
-3,Technology Platform & Access,Digital Platform Access Permissions Revoking*,
-4,Technology Platform & Access,Digital Platform Hosting*,
-5,Technology Platform & Access,Digital Platform Accessibility,
-6,Technology Platform & Access,Streaming Digital Assets Hosting*,
-7,Technology Platform & Access,Streaming Digital Assets Hosting Access*,
-8,Technology Platform & Access,Streaming Digital Assets Hosting Revoking*,
-9,Technology Platform & Access,Equipment*,
-10,Technology Platform & Access,Technology Constraints,
-1,Digital Assets Creation and Management,Digitization*,
-2,Digital Assets Creation and Management,Born-digital files*,
-3,Digital Assets Creation and Management,File Formats Types & Quantity*,
-4,Digital Assets Creation and Management,Digital Asset Collection Size*,
-5,Digital Assets Creation and Management,Digital Collection Metadata Scheme*,
-6,Digital Assets Creation and Management,Digital Collection Controlled Vocabularies*,
-7,Digital Assets Creation and Management,Digital Assets Access*,
-8,Digital Assets Creation and Management,Copyright & Licensing*,
-9,Digital Assets Creation and Management,Accessible Digital Assets,
-1,Unique and Locally Produced Library Collections & Archives,Physical Special Collections & Archives*,
-2,Unique and Locally Produced Library Collections & Archives,Digital Collections & Archives*,
-1,Institutional Compliance,IRB (Institutional Review Board) Study Number,
-2,Institutional Compliance,HIPAA (Human Insurance Portability and Accountability Act),
-3,Institutional Compliance,FERPA (Family Educational Rights and Privacy Act of 1974),
-1,Marketing & Outreach,Target audiences,
+1,Project Intention,Project Title*,"[Working Title] Idaho Public Archaeology (IPA) "
+2,Project Intention,Project Description*,"- part 1: Public Exhibit of archaeological items from MPH |  | - part 2: Teaching Modules for HS Teachers to incorporate Arch knowledge into classroom |  | -- larger but in scope --> template for use with other sites (propagate with data from other sites)"
+3,Project Intention,Project Sponsor,"Kat with Mark Warner | - CDIL folk will also work"
+4,Project Intention,Audience*,"- Primary Audience: HS Teachers, HS Students, Moscow General Public"
+5,Project Intention,Project Term Start*,"September 2020"
+6,Project Intention,Project Term End*,"December 2021"
+7,Project Intention,Time Constraints,"December 2021 -- tentative deadline"
+8,Project Intention,Major Project Milestones*,"- 1)  data templates + site scope/wire frame / what is possible discussion |    - date : November 2020 | - 2) Draft of Public Exhibit |    - date : January 2021 |    - if we got here, could be it | - 3) Public release of Public Exhibit |    - date : April 2021 | - 4) First draft of a couple modules |   - date: Winter 2021 |   - tech, outline, some content | - 5) Draft Modules / Templated Version  |   - example with students this Spring |   - test module with college students this spring semester |  - date: testing in spring and summer 2021"
+9,Project Intention,Project Copyright & Licensing*,"as open as possibile. ccby |  | "
+1,Assessment & Evaluation,Deliverables*,"Public facing exhibit site from work with MHS |  | Public facing site for teaching modules (longer term)"
+2,Assessment & Evaluation,Objectives*,"Work with data from MHS dig. Model data; Mock up site; polish site. Release site.  |  | Develop drafts; test modules; develop UI/UX ideas for delivery; deliver. "
+1,Team Members,Project Team Members*,"Kat Eichner | CDIL staff (Lead:?? tbd)"
+2,Team Members,Project Team Constraints,"CDIL -- > More available fall, early spring semester (less so during summer) |  | Kat --> 6-8 weeks in summer unavailable. (early summer) tuesday thursday teaching, so MWF easier. general academic schedule |  | "
+1,Communications,Team Communications,"email | calendar invites (recurring check-ins) | as the site gets built, github --> so require some more training for Kat. "
+2,Communications,Project Completion Communication,"- audience: MHS, Register, Marcomm, Daily News, Public Radio ...  | - Kat will lead communication"
+1,Marketing & Outreach,Target audiences,"- audience: MHS, Register, Marcomm, Daily News, Public Radio ...  | - Kat will lead communication"
 2,Marketing & Outreach,Outreach Materials,
 3,Marketing & Outreach,Promotional tactics,
 4,Marketing & Outreach,Project Celebration,
-1,Post-Project Sustainability,Continued Development Next Steps*,
-2,Post-Project Sustainability,Sustaining the Digital Project Record,
-3,Post-Project Sustainability,Sustainability Roles & Responsibilities,
+1,Post-Project Sustainability,Continued Development Next Steps*,"Once first steps finished, check in about larger scope opportunities. "
+2,Post-Project Sustainability,Sustaining the Digital Project Record,"digital objects stored by library, along with data, in digital archive.  | including photographs, databases, video.  |  | UI Library will Maintain data for next 10 years after project completion, and then reservers right to determine if they will continue. "
+3,Post-Project Sustainability,Sustainability Roles & Responsibilities,"Kat's role will be to check in and be contact / point person for project in perpetuity.  |  | CDIL/Library will be archival managers and stewards of material. "
