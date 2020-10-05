@@ -1,0 +1,33 @@
+# blank-dev-template
+# basic bootstrap template
+title: Lib-STATIC Project Management Kit Template
+description: This is the example template for our Project Management Kit. The site uses  
+# Project-start and project-end determine the time span of the project
+# If unsure, extend further into the past and future than you think necessary, use yyyy-mm-dd
+project-start: 2019-09-01
+project-end: 2020-08-31
+
+## this part refers to the service agreement the site prompts you to fill out. 
+# when the agreement is finalized [agreement-final: true], means for editing it disappear from the site
+agreement-final: true # when agreement finalized, write "true"; otherwise leave blank
+# List parties to the agreement by adding " - [party_name]"
+agreement-parties:
+ - Sarah Nelson
+ - CDIL
+
+
+# github-id is your github username
+github-id: uidaholib 
+# url is your gh-pages base, following the pattern: username.github.io
+url: https://uidaholib.github.io
+# baseurl is your github repository's name prefixed with a /
+baseurl: /digital-project-management
+
+# Use Bootstrap (true, false)
+bootstrap: true
+# Use optional Bootstrap JS (true, false)
+bootstrap-js: true
+# Use JQuery Core
+jquery: true
+# Use fontawesome CDN (true, false)
+fontawesome: true

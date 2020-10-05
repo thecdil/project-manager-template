@@ -1,0 +1,45 @@
+---
+layout: default
+---
+
+{%- assign sections = site.data.starter_questions %}
+{%unless page.path contains "start"%}{%- assign answers = site.data.starter_answers %}{%endunless%}
+
+        <h1 class="mb-3">{{page.title}}</h1>
+        <p>Participants in the agreement should fill this out together. Click the print button to see your progress. Only those elements and sections you've begun filling out will appear.</p>
+        <p class="centered"><a class="btn btn-light border centered mt-2 d-print-none" onclick="window.print();">Print <i class='fas fa-print'></i> / PDF <i class='fas fa-file-pdf'></i> </a>
+          <button id="export">export</button>
+        </p>
+        <div class="accordion" id="accordionSections">
+{% for section in sections.all %}
+<div class="card d-print-none">
+        <div class="card-header" id="heading{{forloop.index}}">
+          <h2 class="mb-0">
+            <a class="" role="button" data-toggle="collapse" data-target="#collapse{{forloop.index}}" aria-expanded="true" aria-controls="collapse{{forloop.index}}" href="#{{section.title | truncatewords: 1,''}}">
+              {{section.title}} </a>
+            </h2>
+          </div>
+      
+          <div id="collapse{{forloop.index}}" class="collapse {%if forloop.first%}show{%endif%}" aria-labelledby="heading{{forloop.index}}" data-parent="#accordionSections">
+            <div class="card-body">
+{%for sub in section.subsections %}
+<form id="form{{section.title | truncatewords: 1,''}}{{forloop.index}}" class="d-print-none dataForm">
+<h3>{{sub.title}}</h3>
+<ul>
+    {%for prompt in sub.prompts %}
+    <li>{{prompt.text}}</li>
+    {%endfor%}
+</ul>
+
+    <textarea name="message" style="min-height:150px" class="col-12 col-sm-8 ">{%for answer in answers %}{% if answer.text and answer.subsection == sub.title%}{{answer.text | replace: " | ", "&#013"}}{%endif%}{%endfor%}</textarea>
+    <hr/>
+</form>
+
+{%endfor%}
+</div>
+</div>
+</div>
+{%endfor%}
+        </div>
+
+        {% include data-table.html %}

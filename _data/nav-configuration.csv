@@ -1,0 +1,8 @@
+title,stub,type
+Project Agreement,,dropdown parent
+Start,agreement/start.html,dropdown item
+In Progress,agreement/inprogress.html,dropdown item
+Answers,agreement/final.html,dropdown item
+Timeline,timeline.html
+Meeting Minutes,/meetings/
+About,/about.html

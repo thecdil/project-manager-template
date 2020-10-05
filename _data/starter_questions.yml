@@ -1,0 +1,272 @@
+all: 
+  - section: 
+    title: Project Intention
+    subsections:
+    - title: Project Sponsor
+      prompts:
+      - text: Who initiated this project?
+    - title: Stakeholders*
+      prompts:
+      - text: Who cares about this project?
+      - text: Who should care?
+    - title: Project Description* 
+      prompts:
+      - text: What are we trying to do?
+      - text: What problem are we trying to solve?
+      - text: What is in scope? 
+      - text: What is out of scope?
+    - title: Audience*
+      prompts:
+      - text: Who is this project for?
+      - text: How will they use it?
+    - title: Impact*
+      prompts:
+      - text: Why are we doing this project?
+      - text: How does the project impact the intended audience?
+    - title: Project Term Start* 
+      prompts:
+      - text: When will this project begin?
+    - title: Project Term End*
+      prompts:
+      - text: When will this project end?
+    - title: Time Constraints
+      prompts:
+      - text: What is the deadline?
+      - text: When will this project be complete?
+      - text: When will Associates be available?
+      - text: When will UO Libraries be available?
+    - title: Major Project Milestones*
+      prompts:
+      - text: Identify major project milestones
+      - text: Determine their sequential order to complete the project.
+    - title: Project Copyright & Licensing*
+      prompts:
+      - text: Who holds project copyright?
+      - text: How will you license this project for reuse?
+    - title: Digital Project Active Development Storage*
+      prompts:
+      - text: Where will in-development digital project materials be stored during the development of the project?
+  - section: 
+    title: Assessment & Evaluation
+    subsections:
+    - title: Deliverables*
+      prompts: 
+      - text: What do we hope to have at the end of the project? Be specific.
+    - title: Objectives*
+      prompts:
+      - text: What are we going to do to meet the deliverables?
+    - title: Digital Platform User Assessment*
+      prompts:
+      - text: What project user assessment, e.g. usability testing, card sorting, etc., will be conducted?
+    - title: Classroom Learning Outcomes
+      prompts:
+      - text: What program, course, assignment, and/or information literacy learning outcomes are connected to this project?
+    - title: Classroom Learning Assessment
+      prompts:
+      - text: How will students learn from this project?
+      - text: How will learning outcomes be evaluated?
+    - title: Research Outcomes
+      prompts:
+      - text: What research outcomes are connected to this project?
+      - text: What research outcomes are connected to impacting Associate Leadership’s field of study and Academic Libraries scholarly communities?
+    - title: Research Assessment
+      prompts:
+      - text: How will the project’s research impact on Associate Leadership’s field of study and Academic Libraries scholarly communities be evaluated?
+    - title: Digital Project Reuse
+      prompts:
+      - text: How will this digital project be reused by college students, higher education faculty, researchers, K-12 educators, the general public, etc.?
+  - section: 
+    title: Team Members
+    subsections:
+    - title: Project Team Members*
+      prompts:
+      - text: Who is working on the project?
+      - text: What are their role?
+    - title: Project Team Constraints
+      prompts:
+      - text: Are there team members who will only be on the project for a short period of time?
+      - text: When will team members be available?
+      - text: When will team members not be available?
+  - section: 
+    title: Monetary Resources 
+    subsections:
+    - title: Budget*
+      prompts:
+      - text: What financial resources are available?
+      - text: Are there specific requirements for spending this budget?
+    - title: Budget Constraints
+      prompts:
+      - text: How can your budget not be spent?
+      - text: When should you spend out your budget?
+    - title: External Grant Funding
+      prompts:
+      - text: What external grant funding is being used to support this project?
+  - section: 
+    title: Communications 
+    subsections:
+    - title: Team Communications
+      prompts:
+      - text: Who has the role of team communication?
+      - text: What needs to be communicated about the project?
+      - text: Where should communications be distributed to the project team?
+      - text: What communication tools will be used?
+    - title: Sponsor Communications
+      prompts:
+      - text: Who has the role of stakeholder communications? 
+      - text: When should you communicate with project stakeholders?
+      - text: Where should communications be distributed to stakeholders?
+      - text: What communication tools will be used?
+      - text: What do stakeholders need to know?
+    - title: Project Completion Communication 
+      prompts:
+      - text: Who communicates project completion?
+      - text: What needs to be communicated about the project?
+      - text: When should communications be sent to the project team?
+      - text: Where should communications be distributed to the project team?
+      - text: What communication tools will be used?
+  - section: 
+    title: Technology Platform & Access
+    subsections:
+    - title: Digital Platform*
+      prompts:
+      - text: What digital platform will be used to provide access this project, e.g. Omeka, Open Journals System, Oregon Digital?
+    - title: Digital Platform Access Permissions Granting*
+      prompts:
+      - text: Who needs specific access permissions to use the digital platform?
+      - text: What platform privileges do they need?
+      - text: When will access permissions and privileges be granted?
+    - title: Digital Platform Access Permissions Revoking*
+      prompts:
+      - text: Who needs to retain access permissions and privileges after project completion?
+      - text: When will access permissions and privileges be revoked?
+    - title: Digital Platform Hosting*
+      prompts:
+      - text: Where will the project platform be hosted so the audience can get to it? 
+      - text: Identify where the digital access platform will be hosted.
+    - title: Digital Platform Accessibility
+      prompts:
+      - text: What accessibility standard will be used to evaluate the digital platform?
+      - text: How will this evaluation be conducted?
+    - title: Streaming Digital Assets Hosting*
+      prompts:
+      - text: Will the platform require audio or video streaming?
+      - text: Where will digital assets stream from?
+    - title: Streaming Digital Assets Hosting Access*
+      prompts:
+      - text: If the platform requires audio or video streaming, where will streaming media be hosted?
+    - title: Streaming Digital Assets Hosting Revoking*
+      prompts:
+      - text: Who needs to retain access permissions and privileges after project completion?
+      - text: When will access permissions and privileges be revoked?
+    - title: Equipment*
+      prompts: 
+      - text: What equipment will be used to build your project, e.g. Viz Wall, flatbed scanners, 3D-scanner, VHS converter, OpenRefine, etc.
+    - title: Technology Constraints
+      prompts:
+      - text: What can the technology used not do for the project?
+      - text: Is the technology being used by someone else at the same time as this project? 
+      - text: Will this disrupt you getting this project done?
+  - section: 
+    title: Digital Assets Creation and Management
+    subsections:
+    - title: Digitization*
+      prompts:
+      - text: Is digitization required?
+      - text: Who will do the digitization?
+      - text: How will digitization be done?
+    - title: Born-digital files*
+      prompts:
+      - text: Will Associate Leadership be creating original digital photos, audio, video, or documents as part of this digital project?
+      - text: How many files will be made?
+    - title: File Formats Types & Quantity*
+      prompts:
+      - text: What file formats and how many will be accessed via the digital platform?
+      - text: What file types and how many will be used as preservation masters?
+    - title: Digital Asset Collection Size*
+      prompts:
+      - text: In megabits, what is the total digital asset collection size for this project?
+    - title: Digital Collection Metadata Scheme*
+      prompts:
+      - text: Is there a specific metadata scheme needed to describe the project’s digital assets?
+      - text: Will this project be using DublinCore?
+      - text: Are there special metadata fields required by the digital platform?
+    - title: Digital Collection Controlled Vocabularies*
+      prompts:
+      - text: Are there specific tags, keywords, or controlled vocabulary lists to use?
+    - title: Digital Assets Access*
+      prompts:
+      - text: What digital file types need to be accessible via the digital platform?
+    - title: Copyright & Licensing*
+      prompts:
+      - text: What copyright and licensing are associated with the digital assets?
+      - text: Are there digital assets out of copyright and in the public domain?
+      - text: Are digital assets licensed under Creative Commons, RightsStatement.org, or Public Domain?
+    - title: Accessible Digital Assets
+      prompts:
+      - text: How will digital assets be made available to people with different types of access abilities?
+      - text: Do digital assets need captioning? Optical character recognition processing? Audio transcriptions?
+  - section: 
+    title: Unique and Locally Produced Library Collections & Archives
+    subsections:
+    - title: Physical Special Collections & Archives*
+      prompts:
+      - text: What UO Libraries Special Collections & Archival materials will be used for this project?
+      - text: What non-UO Libraries Special Collections & Archives will be used for this project?
+      - text: How many items will be used from each collection?
+      - text: What information about these primary resources are needed to support the project?
+    - title: Digital Collections & Archives*
+      prompts:
+      - text: What UO Libraries digital collections and archives will be used for this project, e.g. Collections from Oregon Digital, Oregon Newspaper Project?
+      - text: What non-UO Libraries digital collections and archives will be used for this project?
+      - text: How many items will be used from each collection?
+      - text: What information about these items are needed to support the project?
+  - section: 
+    title: Institutional Compliance
+    subsections:
+    - title: IRB (Institutional Review Board) Study Number
+      site: http://rcs.uoregon.edu/  
+      prompts:
+      - text: Does the project have an IRB number?
+      - text: Is your IRB exempt or not?
+    - title: HIPAA (Human Insurance Portability and Accountability Act) 
+      site: http://rcs.uoregon.edu/ 
+      prompts:
+      - text: Are Associate Leadership part of a UO HIPAA “covered component”?
+      - text: Are you working with Patient Health Information?
+      - text: How will the project be in compliance?
+    - title: FERPA (Family Educational Rights and Privacy Act of 1974)
+      site: https://registrar.uoregon.edu/records-privacy
+      prompts:
+      - text: Is the digital project in compliance with FERPA?
+      - text: Explain how the project is in compliance with FERPA?
+      - text: Has a FERPA student privacy compliance document been completed for this project?
+  - section: 
+    title: Marketing & Outreach
+    subsections:
+    - title: Target audiences
+      prompts:
+      - text: What audience should this project be marketed toward?
+    - title: Outreach Materials
+      prompts:
+      - text: What types of project marketing materials will you need for outreach?
+    - title: Promotional tactics
+      prompts:
+      - text: What outreach activities should be pursued?
+      - text: How do they meet audience needs?
+      - text: When will outreach materials be disseminated?
+    - title: Project Celebration
+      prompts:
+      - text: When will this project launch be showcased?
+  - section: 
+    title: Post-Project Sustainability
+    subsections:
+    - title: Continued Development Next Steps*
+      prompts:
+      - text: What are the next steps after the project is finished?
+    - title: Sustaining the Digital Project Record
+      prompts:
+      - text: What project components should be sustained?
+      - text: Describe how the digital project record will be sustained by UO Libraries.
+    - title: Sustainability Roles & Responsibilities
+      prompts:
+      - text: Who and what are the roles for overseeing the project’s sustainability?

@@ -1,0 +1,61 @@
+---
+title: Digital Project Agreement Starter
+layout: default
+permalink: agreement/final.html
+---
+
+{%- assign sections = site.data.starter_questions %}
+{%- assign answers = site.data.starter_answers %}
+
+<h1 class="mb-3">{{page.title}}</h1>
+<p>Participants in the agreement should fill this out together. Click the print button to see your progress. Only those
+  elements and sections you've begun filling out will appear.</p>
+<p class="centered"><a class="btn btn-light border centered mt-2 d-print-none" onclick="window.print();">Print <i
+      class='fas fa-print'></i> / PDF <i class='fas fa-file-pdf'></i> </a>
+  <button id="export">export</button>
+</p>
+
+  {% for section in sections.all %}
+
+  <div class="card mb-4">
+    <div class="card-header" id="heading{{forloop.index}}">
+      <h2 class="mb-0">
+
+        {{section.title}}
+      </h2>
+    </div>
+
+    <div id="collapse{{forloop.index}}" class="" aria-labelledby="heading{{forloop.index}}"
+      data-parent="#accordionSections">
+      <div class="card-body">
+        {%for sub in section.subsections %}
+        {%for answer in answers %}{% if answer.text and answer.subsection == sub.title%}
+        <div class="row mb-3 border-bottom">
+          <div class="col-md-3">
+            <h3>{{sub.title}}</h3>
+            <ul style="font-size:12px;">
+              {%for prompt in sub.prompts %}
+              <li>{{prompt.text}}</li>
+              {%endfor%}
+            </ul>
+          </div>
+          <div class="col-md-9 pl-md-3 border-left">
+            <p class="h5 pt-4">{{answer.text | replace: " | ", "<br/>"}}</p>
+          </div>
+        </div>
+        {%endif%}{%endfor%}
+        {%endfor%}
+      </div>
+    </div>
+  </div>
+  {%endfor%}
+
+{% if site.agreement-final == true%}
+  <h2>Signatures</h2>
+    <p>The parties listed below have reviewed the agreement and descriptions above and agree to do their best to fulfill the shared expectations laid out therein. </p>
+    {%for party in site.agreement-parties %}
+    <h3 class="pl-4">~ {{party}}</h3>
+    {%endfor%}
+
+
+  {%endif%}

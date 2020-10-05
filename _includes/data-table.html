@@ -1,0 +1,9 @@
+<div class="">
+        <table class="dataTable d-none">
+          <tr>
+              <th>num</th><th>section</th><th>subsection</th><th>text</th>
+          </tr>
+              {% for section in sections.all %}{%for sub in section.subsections %}<tr><td>{{forloop.index}}</td><td>{{section.title}}</td><td>{{sub.title}}</td><td><span id="value-form{{section.title | truncatewords: 1,''}}{{forloop.index}}"></span></td></tr>
+              {%endfor%}{%endfor%}
+        </table>
+        </div>

@@ -1,0 +1,28 @@
+const dates = [{%for d in site.data.timeline%}
+  '{{d.date}}'{%unless forloop.last%},{%endunless%}
+];
+
+const now = new Date();
+
+let closest = Infinity;
+
+dates.forEach(function(d) {
+   const date = new Date(d);
+
+   if (date >= now && (date < new Date(closest) || date < closest)) {
+      closest = d;
+   }
+});
+
+console.log(closest);
+
+
+
+var today = new Date();
+        var dd = String(today.getDate()).padStart(2, '0');
+        var mm = String(today.getMonth() + 1).padStart(2, '0'); //January is 0!
+        var yyyy = today.getFullYear();
+        
+        today = yyyy + '-' + mm + '-' + dd;
+        var time = today.getTime()
+        document.write(time);

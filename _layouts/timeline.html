@@ -1,0 +1,34 @@
+---
+layout: default
+---
+{% assign events = site.data.timeline | sort: "date"  %}
+{% assign filters = events| map: "type" | uniq %}
+<p class="text-light">Filter by: {%for filter in filters%}
+<button role="button" class="filter btn btn-sm btn-primary" data-filter="{{filter}}">{{filter | capitalize}}</button>
+{%endfor%} </p>
+    
+    <h2 class="text-white text-center my-4">Project Start - {{site.project-start |date: "%a, %b %d, %y" }}</h2>
+    <div class="timeline">
+        {% for event in events %}
+    
+        <div class="tl-container {{event.type}} {%if event.type == 'milestone' %}center {%else%}{% cycle 'left', 'right' %}{%endif%}">
+          <div class="content">
+            
+            <h3>{{event.date | date: "%b %-d, %Y" }}</h3>
+            <p class="text-info"><em>{{event.type | upcase}}</em></p>
+            <h4><a target="_blank" href="{{event.link}}">{{event.title}}</a></h4>
+            {%for person in site.data.people%}
+            {%if event.people contains person.p_id%}
+            <img class="col-2 rounded-circle" src='{{person.image}}'/>
+            {%endif%}
+          {%endfor%}
+          </div>
+        </div>
+    
+        {%endfor%}
+      </div>
+        <h2 class="text-white text-center my-4">Project End - {{site.project-end |date: "%a, %b %d, %y" }}</h2>
+  
+       
+
+        {% include timeline-style.html %}

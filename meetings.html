@@ -1,0 +1,27 @@
+---
+title: Meetings
+layout: default
+permalink: /meetings/
+---
+
+{% assign events = site.data.timeline | sort: "date"  %}
+{%- assign date_format = "%b %-d, %Y" -%}
+
+    <h2 class="text-white text-center my-4">Meetings <br/><small>(Most recent first)</small></h2>
+    <div class="timeline"> 
+    {%for post in site.posts%}
+        <div class="tl-container {% cycle 'left', 'right' %}">
+          <div class="content">
+            
+            <h3>{{post.date | date: "%b %-d, %Y" }}</h3>
+            <h4><a href="{{post.url | relative_url}}">{{post.title}}</a></h4>
+          </div>
+        </div>
+        {%endfor%}
+        
+      </div>
+  
+
+      {% include timeline-style.html %}
+        
+

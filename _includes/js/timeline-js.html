@@ -1,0 +1,9 @@
+
+<script>
+        $( "button.filter" ).click(function() {
+         var filter_class = $(this).data("filter");
+         $('.tl-container').show();
+         $('.tl-container').not('.' + filter_class).toggle();
+         $(this).addClass('filtering');
+         $('button').not(this).removeClass('filtering');});
+         </script>
