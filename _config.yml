@@ -19,9 +19,9 @@ agreement-parties:
 # github-id is your github username
 github-id: dcnb 
 # url is your gh-pages base, following the pattern: username.github.io
-url: https://thecdil.github.io
+# url: 
 # baseurl is your github repository's name prefixed with a /
-baseurl: /digital-project-management
+# baseurl: 
 
 # Use Bootstrap (true, false)
 bootstrap: true
